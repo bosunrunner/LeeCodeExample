@@ -7,7 +7,6 @@ public class MaxProfitWithFee {
         }
         // 定义dp及其下标含义
         int len = prices.length;
-
         int[][] dp = new int[len][2];
         // 确定递推公式并初始化
         dp[0][0] = -prices[0];
